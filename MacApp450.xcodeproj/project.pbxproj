@@ -3,16 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E26E8D78374F6FA8CE297C3 /* Pods_MacApp450Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68170D84CA8BB692D8C873A1 /* Pods_MacApp450Tests.framework */; };
 		3E8E238F27FB78FB00EBA7CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E238E27FB78FB00EBA7CD /* AppDelegate.swift */; };
 		3E8E239127FB78FB00EBA7CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E239027FB78FB00EBA7CD /* ViewController.swift */; };
 		3E8E239327FB78FD00EBA7CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E239227FB78FD00EBA7CD /* Assets.xcassets */; };
 		3E8E239627FB78FD00EBA7CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8E239427FB78FD00EBA7CD /* Main.storyboard */; };
 		3E8E23A227FB78FE00EBA7CD /* MacApp450Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E23A127FB78FE00EBA7CD /* MacApp450Tests.swift */; };
 		3E8E23AD27FB78FE00EBA7CD /* MacApp450UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E23AC27FB78FE00EBA7CD /* MacApp450UITests.swift */; };
+		3E8E23BF27FB796100EBA7CD /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3E8E23BE27FB796100EBA7CD /* PythonKit */; };
+		3E8E23C727FBFB6B00EBA7CD /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E23C627FBFB6B00EBA7CD /* FirstPage.swift */; };
+		3E8E23DA2802730600EBA7CD /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E23D92802730500EBA7CD /* SecondPage.swift */; };
+		3E8E23DF2808BABF00EBA7CD /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E23DE2808BABF00EBA7CD /* ThirdPage.swift */; };
+		5D2EA854E65EFB0BB36CD1BA /* Pods_MacApp450.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAF29B0B50DE36931A0A53E /* Pods_MacApp450.framework */; };
+		FA91CE185F8323E9ED3C0DA3 /* Pods_MacApp450_MacApp450UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE2ED7D6195A1B2C29D912E /* Pods_MacApp450_MacApp450UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		027AE1DC47F9F2E4C506A264 /* Pods-MacApp450-MacApp450UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacApp450-MacApp450UITests.release.xcconfig"; path = "Target Support Files/Pods-MacApp450-MacApp450UITests/Pods-MacApp450-MacApp450UITests.release.xcconfig"; sourceTree = "<group>"; };
+		0AE2ED7D6195A1B2C29D912E /* Pods_MacApp450_MacApp450UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacApp450_MacApp450UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8E238B27FB78FB00EBA7CD /* MacApp450.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacApp450.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8E238E27FB78FB00EBA7CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E8E239027FB78FB00EBA7CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +55,16 @@
 		3E8E23A827FB78FE00EBA7CD /* MacApp450UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacApp450UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8E23AC27FB78FE00EBA7CD /* MacApp450UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacApp450UITests.swift; sourceTree = "<group>"; };
 		3E8E23AE27FB78FE00EBA7CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8E23C627FBFB6B00EBA7CD /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		3E8E23D92802730500EBA7CD /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		3E8E23DE2808BABF00EBA7CD /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
+		409233ADF90D308B5FE526A1 /* Pods-MacApp450-MacApp450UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacApp450-MacApp450UITests.debug.xcconfig"; path = "Target Support Files/Pods-MacApp450-MacApp450UITests/Pods-MacApp450-MacApp450UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68170D84CA8BB692D8C873A1 /* Pods_MacApp450Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacApp450Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AA9E4C0371C9A5CA05EF85 /* Pods-MacApp450Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacApp450Tests.debug.xcconfig"; path = "Target Support Files/Pods-MacApp450Tests/Pods-MacApp450Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE6044D8CCA5E946FC526C5 /* Pods-MacApp450.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacApp450.release.xcconfig"; path = "Target Support Files/Pods-MacApp450/Pods-MacApp450.release.xcconfig"; sourceTree = "<group>"; };
+		9CA6033583CD54E825EB4240 /* Pods-MacApp450.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacApp450.debug.xcconfig"; path = "Target Support Files/Pods-MacApp450/Pods-MacApp450.debug.xcconfig"; sourceTree = "<group>"; };
+		ABAF29B0B50DE36931A0A53E /* Pods_MacApp450.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacApp450.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8F36CD6D66EFB467C3FEE3 /* Pods-MacApp450Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacApp450Tests.release.xcconfig"; path = "Target Support Files/Pods-MacApp450Tests/Pods-MacApp450Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8E23BF27FB796100EBA7CD /* PythonKit in Frameworks */,
+				5D2EA854E65EFB0BB36CD1BA /* Pods_MacApp450.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E26E8D78374F6FA8CE297C3 /* Pods_MacApp450Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA91CE185F8323E9ED3C0DA3 /* Pods_MacApp450_MacApp450UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03CFEEA7F336311E0813D0C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CA6033583CD54E825EB4240 /* Pods-MacApp450.debug.xcconfig */,
+				7DE6044D8CCA5E946FC526C5 /* Pods-MacApp450.release.xcconfig */,
+				409233ADF90D308B5FE526A1 /* Pods-MacApp450-MacApp450UITests.debug.xcconfig */,
+				027AE1DC47F9F2E4C506A264 /* Pods-MacApp450-MacApp450UITests.release.xcconfig */,
+				71AA9E4C0371C9A5CA05EF85 /* Pods-MacApp450Tests.debug.xcconfig */,
+				BB8F36CD6D66EFB467C3FEE3 /* Pods-MacApp450Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3E8E238227FB78FB00EBA7CD = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +116,8 @@
 				3E8E23A027FB78FE00EBA7CD /* MacApp450Tests */,
 				3E8E23AB27FB78FE00EBA7CD /* MacApp450UITests */,
 				3E8E238C27FB78FB00EBA7CD /* Products */,
+				03CFEEA7F336311E0813D0C7 /* Pods */,
+				DE748C15E7A77D206B1975D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +140,9 @@
 				3E8E239427FB78FD00EBA7CD /* Main.storyboard */,
 				3E8E239727FB78FD00EBA7CD /* Info.plist */,
 				3E8E239827FB78FD00EBA7CD /* MacApp450.entitlements */,
+				3E8E23C627FBFB6B00EBA7CD /* FirstPage.swift */,
+				3E8E23D92802730500EBA7CD /* SecondPage.swift */,
+				3E8E23DE2808BABF00EBA7CD /* ThirdPage.swift */,
 			);
 			path = MacApp450;
 			sourceTree = "<group>";
@@ -124,6 +165,16 @@
 			path = MacApp450UITests;
 			sourceTree = "<group>";
 		};
+		DE748C15E7A77D206B1975D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF29B0B50DE36931A0A53E /* Pods_MacApp450.framework */,
+				0AE2ED7D6195A1B2C29D912E /* Pods_MacApp450_MacApp450UITests.framework */,
+				68170D84CA8BB692D8C873A1 /* Pods_MacApp450Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,15 +182,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E8E23B127FB78FE00EBA7CD /* Build configuration list for PBXNativeTarget "MacApp450" */;
 			buildPhases = (
+				A77E01EFBBE9DB4F2E0319F1 /* [CP] Check Pods Manifest.lock */,
 				3E8E238727FB78FB00EBA7CD /* Sources */,
 				3E8E238827FB78FB00EBA7CD /* Frameworks */,
 				3E8E238927FB78FB00EBA7CD /* Resources */,
+				C702C8931E2B1EDFCAEA5F37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MacApp450;
+			packageProductDependencies = (
+				3E8E23BE27FB796100EBA7CD /* PythonKit */,
+			);
 			productName = MacApp450;
 			productReference = 3E8E238B27FB78FB00EBA7CD /* MacApp450.app */;
 			productType = "com.apple.product-type.application";
@@ -148,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E8E23B427FB78FE00EBA7CD /* Build configuration list for PBXNativeTarget "MacApp450Tests" */;
 			buildPhases = (
+				A58478CB3E9A6495D489DDEE /* [CP] Check Pods Manifest.lock */,
 				3E8E239927FB78FE00EBA7CD /* Sources */,
 				3E8E239A27FB78FE00EBA7CD /* Frameworks */,
 				3E8E239B27FB78FE00EBA7CD /* Resources */,
@@ -166,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E8E23B727FB78FE00EBA7CD /* Build configuration list for PBXNativeTarget "MacApp450UITests" */;
 			buildPhases = (
+				9DADA68287FA647066C08DD6 /* [CP] Check Pods Manifest.lock */,
 				3E8E23A427FB78FE00EBA7CD /* Sources */,
 				3E8E23A527FB78FE00EBA7CD /* Frameworks */,
 				3E8E23A627FB78FE00EBA7CD /* Resources */,
+				F51526BBCAF31ADD94FA5450 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +270,9 @@
 				Base,
 			);
 			mainGroup = 3E8E238227FB78FB00EBA7CD;
+			packageReferences = (
+				3E8E23BD27FB796100EBA7CD /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
 			productRefGroup = 3E8E238C27FB78FB00EBA7CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -248,13 +310,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9DADA68287FA647066C08DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacApp450-MacApp450UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A58478CB3E9A6495D489DDEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacApp450Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77E01EFBBE9DB4F2E0319F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacApp450-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C702C8931E2B1EDFCAEA5F37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MacApp450/Pods-MacApp450-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MacApp450/Pods-MacApp450-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MacApp450/Pods-MacApp450-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51526BBCAF31ADD94FA5450 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MacApp450-MacApp450UITests/Pods-MacApp450-MacApp450UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MacApp450-MacApp450UITests/Pods-MacApp450-MacApp450UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MacApp450-MacApp450UITests/Pods-MacApp450-MacApp450UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E8E238727FB78FB00EBA7CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8E23DA2802730600EBA7CD /* SecondPage.swift in Sources */,
+				3E8E23DF2808BABF00EBA7CD /* ThirdPage.swift in Sources */,
 				3E8E239127FB78FB00EBA7CD /* ViewController.swift in Sources */,
 				3E8E238F27FB78FB00EBA7CD /* AppDelegate.swift in Sources */,
+				3E8E23C727FBFB6B00EBA7CD /* FirstPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +586,7 @@
 		};
 		3E8E23B227FB78FE00EBA7CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA6033583CD54E825EB4240 /* Pods-MacApp450.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +608,7 @@
 		};
 		3E8E23B327FB78FE00EBA7CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE6044D8CCA5E946FC526C5 /* Pods-MacApp450.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +630,7 @@
 		};
 		3E8E23B527FB78FE00EBA7CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AA9E4C0371C9A5CA05EF85 /* Pods-MacApp450Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +653,7 @@
 		};
 		3E8E23B627FB78FE00EBA7CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8F36CD6D66EFB467C3FEE3 /* Pods-MacApp450Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +676,7 @@
 		};
 		3E8E23B827FB78FE00EBA7CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409233ADF90D308B5FE526A1 /* Pods-MacApp450-MacApp450UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,6 +697,7 @@
 		};
 		3E8E23B927FB78FE00EBA7CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027AE1DC47F9F2E4C506A264 /* Pods-MacApp450-MacApp450UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -582,6 +756,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E8E23BD27FB796100EBA7CD /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E8E23BE27FB796100EBA7CD /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E8E23BD27FB796100EBA7CD /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3E8E238327FB78FB00EBA7CD /* Project object */;
 }
