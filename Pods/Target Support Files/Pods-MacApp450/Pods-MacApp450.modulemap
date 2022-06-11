@@ -1,0 +1,6 @@
+framework module Pods_MacApp450 {
+  umbrella header "Pods-MacApp450-umbrella.h"
+
+  export *
+  module * { export * }
+}
